@@ -16,6 +16,19 @@ TJ Lane <tjlane@slac.stanford.edu>
 
 ------
 
+** Set up **
+
+Psgeom is a pure python library which can be set up in 3 simple steps:
+1) Get a copy from psgeom github
+git clone https://github.com/LinacCoherentLightSource/psgeom.git
+2) Create your virtual environment
+virtualenv psgeom
+source psgeom/bin/activate
+3) Install
+python setup.up install
+
+------
+
 ** Example **
 
 Here's a quick example of how to use this code. Imagine I have a geometry file
